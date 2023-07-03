@@ -7,7 +7,7 @@ if (token) {
 }
 
 async function getData() {
-  let response = await fetch("https://mock-02.onrender.com/users");
+  let response = await fetch("https://lazy-plum-quail-veil.cyclic.app/users");
   let data = await response.json();
 
   getTotal(data);

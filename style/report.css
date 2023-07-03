@@ -57,7 +57,7 @@ body {
 }
 
 #report_container thead {
-  background-color:#c300ff;
+  background-color:green;
   color: #fff;
 }
 
@@ -79,7 +79,7 @@ body {
 }
 
 #alumnie th {
-  background-color: #c300ff;
+  background-color: green;
   color: #fff;
   padding: 1rem;
   text-align: center;

@@ -22,6 +22,8 @@ body {
   right: 0;
   z-index: 999;
   transition: all 0.3s ease-in-out;
+  margin: auto;
+  justify-content: space-evenly;
 }
 
 #navbar_container div {
@@ -36,7 +38,7 @@ body {
 }
 
 #navbar_container div a:hover {
-  color:#c300ff;
+  color:green;
 }
 
 
@@ -95,7 +97,7 @@ body {
   padding: 0.5rem;
   border: none;
   border-radius: 3px;
-  background-color: #c300ff;
+  background-color: green;
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
@@ -104,5 +106,5 @@ body {
 }
 
 #loginbutt input[type="submit"]:hover {
-  background-color: #c300ff;
+  background-color: green;
 }

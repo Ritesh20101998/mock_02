@@ -9,7 +9,7 @@ if (token) {
 }
 
 async function getData(id) {
-  let response = await fetch(`https://mock-02.onrender.com/users/${id}`);
+  let response = await fetch(`https://lazy-plum-quail-veil.cyclic.app/users/${id}`);
   let data = await response.json();
   if (!Array.isArray(data)) {
     data = [data];
@@ -82,7 +82,7 @@ function displayData(data) {
 }
 
 async function deleteUser(id) {
-  let response = await fetch(`https://mock-02.onrender.com/users/${id}`, {
+  let response = await fetch(`https://lazy-plum-quail-veil.cyclic.app/users/${id}`, {
     method: "DELETE",
     headers: { "content-type": "application/json" },
   });
@@ -94,7 +94,7 @@ async function Searchuser() {
 
   if (!name) getData("");
 
-  let response = await fetch(`https://mock-02.onrender.com/users?name=${name}`);
+  let response = await fetch(`https://lazy-plum-quail-veil.cyclic.app/users?name=${name}`);
   let data = await response.json();
 
   if (data.length == 0) return;
@@ -156,7 +156,7 @@ async function Changeprofession(id) {
 
   let profession = document.querySelector("#inputModel").value;
 
-  let response = await fetch(`https://mock-02.onrender.com/users/${id}`, {
+  let response = await fetch(`https://lazy-plum-quail-veil.cyclic.app/users/${id}`, {
     method: "PATCH",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({

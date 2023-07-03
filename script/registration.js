@@ -20,7 +20,7 @@ function Formsubmit(e){
 }
 
 async function RegisterUser(data){
-    let response =await fetch("https://mock-02.onrender.com/users",{
+    let response =await fetch("https://lazy-plum-quail-veil.cyclic.app/users",{
         method:"POST",
         headers: {"content-type": "application/json"},
         body: JSON.stringify({
