@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+
+#navbar_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  transition: all 0.3s ease-in-out;
+}
+
+#navbar_container div {
+  margin: 0 0.5rem;
+}
+
+#navbar_container div a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+#navbar_container div a:hover {
+  color: #0077FF;
+}
+
+
+/* Report container styles */
+#report_container {
+  margin: 5rem auto;
+  max-width: 800px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+#report_container table {
+  width: 100%;
+}
+
+#report_container thead {
+  background-color:#c300ff;
+  color: #fff;
+}
+
+#report_container th,
+#report_container td {
+  padding: 1rem;
+  text-align: center;
+}
+
+
+
+#alumnie {
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
+
+#alumnie tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#alumnie th {
+  background-color: #c300ff;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#alumnie td {
+  padding: 0.5rem 1rem;
+  text-align: center;
+  font-size: 1.1rem;
+}
